@@ -1,10 +1,65 @@
+.glavniDiv{
+margin: 0px auto;
+width: 85%;
 
-.logo{background-color: yellow;
-flex-grow: 1;}
 
-.ikonice{background-color: rgb(251, 251, 253);
+
+
+}
+.logo{
+
+flex-grow: 1;
+padding: 5px;}
+
+.ikonice{
 flex-grow: 1;
 text-align: right;}
 
 .headerGornji {
-    display: flex;}
+    display: flex;
+align-items: center;}
+
+
+.logo img{
+    height:60px
+}
+
+.ikonice a img {
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+
+}
+
+
+
+/* Stiliziranje Meni-a  */
+
+#main-menu{
+    display: flex;
+    justify-content: center;
+    height: 45px;
+}
+
+
+#main-menu a{
+    flex-grow: 1;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color:#2098e2;
+    transition: 450ms;
+
+
+}
+
+
+#main-menu a.active,
+#main-menu a:hover{
+    background-color: #2098e2;
+    color: white;
+transition: 450ms;
+}
+
+/* Dodavanje fotografije */
+
